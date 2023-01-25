@@ -13,10 +13,10 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <form method=:post" action="sayHello">
+        <form method="post" action="hello">
             First Name: <input type="text" name="firstname"><br>
             Last Name: <input type="text" name="lastname"><br>
-            <input type="sumbit" value="Submit">        
+            <input type="submit" value="Submit">        
         </form>
     </body>
 </html>

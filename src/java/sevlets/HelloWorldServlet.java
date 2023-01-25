@@ -27,6 +27,9 @@ public class HelloWorldServlet extends HttpServlet {
        
         request.setAttribute("firstname", firstname);
         request.setAttribute("lastname", lastname);
+        
+        getServletContext().getRequestDispatcher("/WEB-INF/sayHello.jsp")
+             .forward(request, response);
     }
    
 }
