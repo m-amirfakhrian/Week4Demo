@@ -9,9 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Hello World</title>
     </head>
     <body>
         <h1>Hello World!</h1>
+        <form method=:post" action="sayHello">
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            <input type="sumbit" value="Submit">        
+        </form>
     </body>
 </html>
