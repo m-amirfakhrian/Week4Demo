@@ -16,7 +16,8 @@
         <form method="post" action="hello">
             First Name: <input type="text" name="firstname" value="${firstname}"><br>
             Last Name: <input type="text" name="lastname" value="${lastname}"><br>
-            <input type="submit" value="Submit">        
+            <input type="submit" value="Submit">   
+            <p>${message}</p>
         </form>
     </body>
 </html>
