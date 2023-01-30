@@ -19,6 +19,7 @@
             Last Name: <input type="text" name="lastname" value="${lastname}"><br>
             <input type="submit" value="Submit">            
         </form>
+            
         <c:if test="${invalid == true}">
             <p>Invalid Entry. Please enter both your first and last name.</p>
         </c:if>
